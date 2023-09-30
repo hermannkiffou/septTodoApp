@@ -10,13 +10,19 @@ class Todo extends StatefulWidget {
 class _TodoState extends State<Todo> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: SingleChildScrollView(
-        child: Column(
-          children: [
-Text("CONTENU TODO"),
-      ],
-      ),
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+            Center(
+              child: Text("CONTENU TODO"),
+              ),
+              ],
+            ),
+        ),
       ),
     );
   }

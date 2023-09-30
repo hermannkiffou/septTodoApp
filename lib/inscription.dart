@@ -23,6 +23,8 @@ class _InscriptionState extends State<Inscription> {
     return Scaffold(
       body: SingleChildScrollView(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text("INSCRIPTION"),
             TextFormField(
